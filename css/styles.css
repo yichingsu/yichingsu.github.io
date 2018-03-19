@@ -1,0 +1,144 @@
+/* BOOTSTRAP 3.x GLOBAL STYLES
+-------------------------------------------------- */
+/*body {
+	position: relative;
+	padding-bottom: 40px;
+	color: #333333;
+	padding-top: 40px;
+	margin: 0 px auto;
+	
+	
+}
+
+*/
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+
+.carousel-caption h1, .carousel-caption p {
+	font-family: "Microsoft Yahei";
+	text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+	margin: 0 px auto;
+	padding-top: 10px;
+}
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+
+.carousel {
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 1;
+  height: 60%;
+}
+
+/* Declare heights because of positioning of img element */
+
+
+.carousel .item{
+	width:900px;
+	height: 400px;
+	background-color: #FFFFFF;
+	margin:0px auto;
+}
+
+.carousel img {
+  position: absolute;
+  top: 105px ;
+  left: 0;
+  min-height: 400px;
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.container{
+	padding-left: 0 px;
+	padding-right: 20px;
+	min-height: 400px;
+	
+	
+   
+}
+.section {
+	position:relative;
+	padding-left: 250px; 
+	margin:0 auto;
+	　text-align: justify;
+	text-justify:inter-ideograph;
+
+	
+}
+.image {
+	padding-left: 15px;
+    padding-right: 25px;
+	
+	float:left;	
+	
+}
+
+.section:target {
+    padding-top: 40px;
+}
+.anchor {
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: -1;
+    top: -40px;
+    left: 0;
+    visibility: hidden;
+}
+
+
+
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remve the edge padding needed for mobile */
+  .marketing {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Bump up size of carousel content */
+
+  
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+  
+
+}
+
+/*@media (max-width: 767px){
+  
+  .carousel-caption h1 {
+    font-size: 16px;
+  }
+  .carousel-caption p {
+    font-size: 12px;
+  }
+
+*/
+
+} 
